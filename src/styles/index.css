@@ -1,0 +1,9 @@
+#root {
+  height: calc(100vh - 1em);
+}
+main {
+  height: inherit;
+  display: grid;
+  grid-auto-rows: auto 1fr auto;
+  grid-row-gap: 0.5em;
+}

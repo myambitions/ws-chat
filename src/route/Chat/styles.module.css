@@ -1,0 +1,13 @@
+.chat {
+  padding: 0.5em;
+  border: 1px solid #000;
+}
+.control {
+  display: flex;
+}
+.input {
+  flex-grow: 1;
+  margin-right: 1em;
+  padding: 0.5em;
+  border: 1px solid #000;
+}

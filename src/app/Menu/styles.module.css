@@ -1,0 +1,8 @@
+.menu {
+  padding: 0.5em;
+  border: 1px solid #000;
+}
+
+.menu a {
+  margin-right: 0.5em;
+}
