@@ -35,6 +35,8 @@ const Chat: FC<Props> = ({
     (e: KeyboardEvent) => {
       if (sendbb === "on" && e.ctrlKey && e.keyCode === 13) {
         submit();
+      } else if (sendbb !== "on" && !e.ctrlKey && e.keyCode === 13) {
+        submit();
       }
     },
     [sendbb, submit]
