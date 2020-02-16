@@ -1,24 +1,64 @@
-## Frontend for Chat
+# Docler Holding Chat Hometask
 
-In the project directory, you can run:
+A chat application built with the following technologies:
 
-### `npm start`
+- React + Redux + TypeScript
+- Websockets with Socket.io
+- Jest/Enzyme for testing
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Application features:
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+- Header
+  1. Chat tab
+  2. Settings tab
+  3. Unread messages counter
+- Chat page
+  1. Chat area
+  2. Message (text, datetime, left or right depending on if it's received or sent)
+  3. Showing nickname only for received message
+  4. Message sender - input and button
+  5. Send messages with Enter/Ctrl+Enter
+  6. Auto scroll to bottom when the chat area is not enough to show all messages
+  7. Link Parser - youtube link (embedded video should appear), link to an image (embedded image should appear)
+- Settings page
+  1. Possibility to change user name
+  2. Change the color theme of the app
+  3. Change the time mode 12h or 24h, shown with each message
+  4. Send messages with Ctrl+Enter - On/Off
+  5. LanguageSwitcher - dropdown menu allowing changing the language of the app (English and Russian are supported)
+  6. Reset button - resets all settings stored to local storage
 
-### `npm test`
+### Running The App locally
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To run the app, follow these steps.
 
-### `npm run build`
+1. Ensure that [NodeJS](http://nodejs.org/) is installed.
+2. Install [npm](https://www.npmjs.com/).
+3. From the project folder, execute the following commands:
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+To install dependencies:
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+```shell
+  npm i
+```
+
+To run the server app:
+
+```shell
+  npm run server
+```
+
+To run the client app:
+
+```shell
+  npm start
+```
+
+To run the tests:
+
+```shell
+  npm test
+```
+
+Browse to [http://localhost:3000](http://localhost:3000) and see the running app. In order to test, open it in two different computers,
+or computer and a phone, or two browsers on the same computer (one of it in incognito mode).
