@@ -24,7 +24,9 @@ export function chatMiddleware() {
 }
 
 export default function(store: Store) {
-  socket = io.connect(host);
+  socket = io.connect(host, {
+    transports: ["websocket", "polling"]
+  });
 
   socket.on("connected", () => {
     store.dispatch(Actions.wsConnected());
