@@ -35,11 +35,11 @@ const Router: FC<Props> = ({ settings }) => {
       <Switch>
         <Route exact path="/" component={Chat} />
         <Route path="/settings" component={Settings} />
-        <Dialog />
         {/*users.length > 0 ? (
-        <Snackbar open={isOpen} handleClose={handleClose} message={sbMsg} />
-      ) : null */}
+          <Snackbar open={isOpen} handleClose={handleClose} message={sbMsg} />
+        ) : null */}
       </Switch>
+      <Dialog />
     </main>
   );
 };
