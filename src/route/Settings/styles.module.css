@@ -1,0 +1,8 @@
+.settings {}
+
+
+.form {
+  display: grid;
+  grid-auto-rows: auto;
+  grid-gap: 2em;
+}

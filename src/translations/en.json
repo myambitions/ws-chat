@@ -1,0 +1,16 @@
+{
+  "sendMessage": "Send Message",
+  "chatIntro": "No messages yet. Start chatting by typing something",
+  "you": "You",
+  "enterYourName": "Enter your name",
+  "submit": "Submit",
+  "defaultOption": "None",
+  "languageTitle": "Language",
+  "username": "Username",
+  "interfaceColor": "Interface color",
+  "clockDisplay": "Clock display",
+  "sendByCtrlEnter": "Send messages on CTRL+ENTER",
+  "resetToDefaults": "Reset to defaults",
+  "chat": "Chat",
+  "settings": "Settings"
+}

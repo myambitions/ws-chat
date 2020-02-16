@@ -1,0 +1,16 @@
+{
+  "sendMessage": "Отправить сообщение",
+  "chatIntro": "В чате пока нет сообщений. Начните, написав что-либо",
+  "you": "Вы",
+  "enterYourName": "Введите ваше имя",
+  "submit": "Подтвердить",
+  "defaultOption": "Не выбран",
+  "languageTitle": "Язык",
+  "username": "Имя",
+  "interfaceColor": "Цвет интерфейса",
+  "clockDisplay": "Формат времени",
+  "sendByCtrlEnter": "Отправлять сообщения по нажатию CTRL+ENTER",
+  "resetToDefaults": "Сброс настроек",
+  "chat": "Чат",
+  "settings": "Настройки"
+}

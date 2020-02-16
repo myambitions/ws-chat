@@ -1,0 +1,6 @@
+/* https://en.wikipedia.org/wiki/Graphics_display_resolution */
+@value phone: max-width: 425px;
+@value tablet: min-width: 426px and max-width: 48em;
+/* @value desktop: (min-width: 48.001em) and (max-width: 64em); */
+/* @value wide: (min-width: 48.001em); */
+@value desktop: min-width: 48.001em;

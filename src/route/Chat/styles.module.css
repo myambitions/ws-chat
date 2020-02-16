@@ -1,13 +1,21 @@
-.chat {
-  padding: 0.5em;
-  border: 1px solid #000;
-}
 .control {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-gap: 0 .5em;
+}
+
+.chat {
   display: flex;
 }
-.input {
-  flex-grow: 1;
-  margin-right: 1em;
-  padding: 0.5em;
-  border: 1px solid #000;
+
+.chatEmpty {
+  composes: chat;
+  justify-content: center;
+  align-items: center;
+}
+
+.chatNotEmpty {
+  composes: chat;
+  flex-direction: column;
+  overflow-y: auto;
 }
