@@ -1,4 +1,4 @@
-# Docler Holding Chat Hometask
+# Chat application
 
 A chat application built with the following technologies:
 
